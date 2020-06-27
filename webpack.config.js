@@ -11,7 +11,7 @@ module.exports = {
     rules: [
       {
         test: /\.svg$/,
-        type: 'asset',
+        loader: 'file-loader'
       },
     ],
   },

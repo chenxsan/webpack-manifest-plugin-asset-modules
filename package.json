@@ -6,6 +6,7 @@
   "author": "chenxsan <chenxsan@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "file-loader": "^6.0.0",
     "webpack": "^5.0.0-beta.18",
     "webpack-cli": "^3.3.12",
     "webpack-manifest-plugin": "^3.0.0-rc.0"

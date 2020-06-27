@@ -12,6 +12,14 @@ module.exports = {
       {
         test: /\.svg$/,
         type: 'asset',
+        generator: {
+          filename: '[name].[hash][ext]'
+        },
+        parser: {
+          dataUrlCondition: {
+            maxSize: 5
+          }
+        }
       },
     ],
   },
